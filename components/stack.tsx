@@ -6,7 +6,7 @@ const COLUMNS = [
   { title: 'FRONTEND', items: ['REACT', 'NEXT.JS', 'TYPESCRIPT', 'TAILWIND', 'HTML/CSS'] },
   { title: 'ANIMATION', items: ['GSAP', 'FRAMER MOTION', 'LENIS', 'CSS ANIM'] },
   { title: 'DESIGN', items: ['FIGMA', 'DESIGN SYSTEMS', 'PROTOTYPING', 'WIREFRAMING'] },
-  { title: 'BACKEND', items: ['NODE.JS', 'POSTGRES', 'REST APIS', 'GIT'] },
+  { title: 'BACKEND', items: ['PHP', 'NODE.JS', 'POSTGRES', 'REST APIS', 'GIT'] },
 ]
 
 export function Stack() {
