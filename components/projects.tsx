@@ -28,7 +28,7 @@ const PROJECTS: Project[] = [
   // { id: 'PROJECT_THETA', name: 'VAULT', category: 'FULLSTACK', img: '/images/proj-fullstack.png', stats: { build: '5 MO', stack: 'NEXT.JS', responsive: '100%', status: 'WIP', live: false } },
 ]
 
-const FILTERS = ['ALL', 'WEB APP', 'MOBILE', 'FULLSTACK'] as const
+const FILTERS = ['ALL', 'WEBSITE', 'MOBILE', 'FULLSTACK'] as const
 
 export function Projects() {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>('ALL')

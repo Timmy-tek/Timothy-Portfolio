@@ -7,6 +7,7 @@ const SOCIALS = [
   { label: 'LINKEDIN', href: 'https://www.linkedin.com/in/timothy-adegbola-20a511303' },
   { label: 'BEHANCE', href: 'https://www.behance.net/timothyadegbola' },
   { label: 'TWITTER', href: 'https://x.com/Timmy_tekX' },
+  { label: 'WHATSAPP', href: 'https://wa.me/2347060602369' },
 ]
 
 export function Contact() {
