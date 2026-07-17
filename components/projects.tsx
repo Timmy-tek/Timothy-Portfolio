@@ -12,18 +12,19 @@ type Project = {
   img: string
   link: string
   github: string
-  color: string
+  color1: string
+  color2: string
   stats: { build: string; stack: string; responsive: string; status: string; live: boolean }
 }
 
 const PROJECTS: Project[] = [
-  { id: 'PROJECT_ALPHA', name: '🥛SPYLT', category: 'WEBSITE', img: '/images/Spylt.png', link:'https://spylt-awesome-gsap-website.vercel.app', github: 'https://github.com/Timmy-tek/SPYLT-Awesome-GSAP-website', color: '#523122', stats: { build: '2 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_BETA', name: '🍸MOJITO', category: 'WEBSITE', img: '/images/Mojito.png', link: 'https://mojito-cocktails-gsap-two.vercel.app', github: 'https://github.com/Timmy-tek/gsap_cocktails', color: '#2D4628', stats: { build: '1 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'BETA', live: true } },
-  { id: 'PROJECT_GAMMA', name: '🔵CODEFLOW', category: 'WEBSITE', img: '/images/Codeflow.png', link: 'https://codeflow-react-website.vercel.app', github: 'https://github.com/Timmy-tek/modern-react-website', color: '#445FD9', stats: { build: '1 WK', stack: 'REACT.JS, TAILWIND', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_DELTA', name: '🎬CINEMAX', category: 'WEBSITE', img: '/images/Cinemax.png', link: 'https://cinemax-indol.vercel.app', github: 'https://github.com/Timmy-tek/CINEMAX', color: '#E8A045', stats: { build: '1 DY', stack: 'JS, APIs', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_EPSILON', name: '🪙PAYFLOW', category: 'WEBSITE', img: '/images/Payflow.png', link: 'https://it-liveptals.github.io/Payflow-Landing-Page/', github: 'https://it-liveptals.github.io/Payflow-Landing-Page/', color: '#0B57D0', stats: { build: '1 WK', stack: 'JS, APIs', responsive: '100%', status: 'WIP', live: true } },
-  { id: 'PROJECT_ZETA', name: '🧑🏻‍💻G PORTFOLIO', category: 'WEBSITE', img: '/images/Portfolio.png', link: 'https://portfolio-website-theta-tawny-84.vercel.app/', github: 'https://github.com/Timmy-tek/portfolio-website', color: '#0A0A0A', stats: { build: '1 WK', stack: 'NEXT.JS', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_ETA', name: '🧑🏻‍💻EDUCORE', category: 'FULLSTACK', img: '/images/Educore.png', link: 'https://educore-schools.infinityfreeapp.com/', github: 'https://educore-schools.infinityfreeapp.com/', color: '#0A0A0A', stats: { build: '1 WK', stack: 'PHP', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_ALPHA', name: '🥛SPYLT', category: 'WEBSITE', img: '/images/Spylt.png', link:'https://spylt-awesome-gsap-website.vercel.app', github: 'https://github.com/Timmy-tek/SPYLT-Awesome-GSAP-website', color1: '#8c4c2e', color2: '#fb7498', stats: { build: '2 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_BETA', name: '🍸MOJITO', category: 'WEBSITE', img: '/images/Mojito.png', link: 'https://mojito-cocktails-gsap-two.vercel.app', github: 'https://github.com/Timmy-tek/gsap_cocktails', color1: '#2d8f1b',color2: '#d5d229', stats: { build: '1 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'BETA', live: true } },
+  { id: 'PROJECT_GAMMA', name: '🔵CODEFLOW', category: 'WEBSITE', img: '/images/Codeflow.png', link: 'https://codeflow-react-website.vercel.app', github: 'https://github.com/Timmy-tek/modern-react-website', color1: '#445FD9',color2: '#44d9b6', stats: { build: '1 WK', stack: 'REACT.JS, TAILWIND', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_DELTA', name: '🎬CINEMAX', category: 'WEBSITE', img: '/images/Cinemax.png', link: 'https://cinemax-indol.vercel.app', github: 'https://github.com/Timmy-tek/CINEMAX', color1: '#E8A045',color2: '#d52b2b', stats: { build: '1 DY', stack: 'JS, APIs', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_EPSILON', name: '🪙PAYFLOW', category: 'WEBSITE', img: '/images/Payflow.png', link: 'https://it-liveptals.github.io/Payflow-Landing-Page/', github: 'https://it-liveptals.github.io/Payflow-Landing-Page/', color1: '#0B57D0',color2: '#d1e2ff', stats: { build: '1 WK', stack: 'JS, APIs', responsive: '100%', status: 'WIP', live: true } },
+  { id: 'PROJECT_ZETA', name: '🧑🏻‍💻G PORTFOLIO', category: 'WEBSITE', img: '/images/Portfolio.png', link: 'https://portfolio-website-theta-tawny-84.vercel.app/', github: 'https://github.com/Timmy-tek/portfolio-website', color1: '#838383',color2: '#c1c1c1', stats: { build: '1 WK', stack: 'NEXT.JS', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_ETA', name: '🧑🏻‍💻EDUCORE', category: 'FULLSTACK', img: '/images/Educore.png', link: 'https://educore-schools.infinityfreeapp.com/', github: 'https://educore-schools.infinityfreeapp.com/', color1: '#768dea',color2: '#bf76ea', stats: { build: '1 WK', stack: 'PHP', responsive: '100%', status: 'LIVE', live: true } },
   // { id: 'PROJECT_ETA', name: 'GRID.CO', category: 'WEB APP', img: '/images/proj-landing.png', stats: { build: '4 WK', stack: 'REACT', responsive: '100%', status: 'LIVE', live: true } },
   // { id: 'PROJECT_THETA', name: 'VAULT', category: 'FULLSTACK', img: '/images/proj-fullstack.png', stats: { build: '5 MO', stack: 'NEXT.JS', responsive: '100%', status: 'WIP', live: false } },
 ]
@@ -80,12 +81,18 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
     <article
       data-cursor="view"
       className="group flex flex-col border border-ink bg-surface transition-all duration-200 hover:-translate-y-1 hover:border-red"
-      style={{ boxShadow: 'none' }}
+      style={{
+        boxShadow: 'none',
+        '--hover-color1': project.color1,
+        '--hover-color2': project.color2,
+      } as React.CSSProperties}
+
       onMouseEnter={(e) => (e.currentTarget.style.boxShadow = '4px 4px 0 var(--color-ink)')}
       onMouseLeave={(e) => (e.currentTarget.style.boxShadow = 'none')}
     >
       {/* top strip */}
-      <div className="flex items-center justify-between border-b border-ink px-3 py-2">
+      <div
+          className="flex items-center justify-between border-b border-ink px-3 py-2">
         <span className="font-mono text-[0.6rem] uppercase tracking-[0.2em] text-ink">
           PROJECT_{String(index + 1).padStart(2, '0')}
         </span>
@@ -96,7 +103,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
       {/* name */}
       <div className="px-3 pt-4">
-        <h3 className="font-display text-2xl text-ink">{project.name}</h3>
+        <h3 className="font-display text-2xl text-ink group-hover:text-[var(--hover-color1)] ">{project.name}</h3>
       </div>
 
       {/* screenshot */}
@@ -124,18 +131,18 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       </div>
 
       {/* footer link */}
-      <div className="flex border-t border-ink">
+      <div
+          className="flex border-t border-ink">
         <a
           href={project.link} target="_blank"
-          style={{ '--hover-color': project.color } as React.CSSProperties}
-          className={`flex-1 flex items-center justify-between border-r border-ink px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink group-hover:bg-amber-300`}
+          className={`flex-1 flex items-center justify-between border-r border-ink px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink hover:bg-[var(--hover-color1)]`}
         >
           View Project
           <span className="text-red transition-transform duration-200 group-hover:translate-x-1">→</span>
         </a>
         <a
           href={project.github} target="_blank"
-          className={`flex-1 flex items-center justify-between px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink group-hover:bg-red-200`}
+          className={`flex-1 flex items-center justify-between px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink hover:bg-[var(--hover-color2)]`}
         >
           View Github
           <span className="text-red transition-transform duration-200 group-hover:translate-x-1">→</span>

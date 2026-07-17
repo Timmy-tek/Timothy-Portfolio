@@ -114,6 +114,11 @@ export function Hero() {
             </div>
           ))}
         </div>
+
+        <div className="absolute left-2/2 -translate-x-1/2 lg:left-110 lg:-translate-x-0 top-2/3 -translate-y-1/2 w-[1420px] lg:max-w-none z-[-20] opacity-30">
+          <img className="w-full h-auto" src='/images/me2.png' alt=""/>
+        </div>
+
       </div>
     </section>
   )
