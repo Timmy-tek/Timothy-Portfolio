@@ -12,6 +12,9 @@ export function SmoothScroll() {
       smoothWheel: true,
     })
 
+    // Store lenis instance on window for global access
+    ;(window as any).lenis = lenis
+
     lenis.on('scroll', ScrollTrigger.update)
 
     let rafId: number
