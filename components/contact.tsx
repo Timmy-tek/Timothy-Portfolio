@@ -3,10 +3,10 @@
 import { CornerCrosshairs } from '@/components/crosshair'
 
 const SOCIALS = [
-  { label: 'GITHUB', href: 'https://github.com' },
-  { label: 'LINKEDIN', href: 'https://linkedin.com' },
-  { label: 'BEHANCE', href: 'https://behance.net' },
-  { label: 'TWITTER', href: 'https://twitter.com' },
+  { label: 'GITHUB', href: 'https://github.com/Timmy-tek' },
+  { label: 'LINKEDIN', href: 'https://www.linkedin.com/in/timothy-adegbola-20a511303' },
+  { label: 'BEHANCE', href: 'https://www.behance.net/timothyadegbola' },
+  { label: 'TWITTER', href: 'https://x.com/Timmy_tekX' },
 ]
 
 export function Contact() {
