@@ -14,7 +14,7 @@ export function Navbar() {
       <nav className="mx-auto flex h-14 max-w-[1600px] items-center justify-between px-4 md:px-8">
         {/* LEFT — wordmark */}
         <a href="#index" className="flex items-baseline gap-1">
-          <span className="font-display text-[1.1rem] leading-none text-ink">TIM</span>
+          <span className="font-display text-[1.1rem] leading-none text-ink">TIMMY</span>
           <span className="h-1.5 w-1.5 bg-red" aria-hidden="true" />
         </a>
 
