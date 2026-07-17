@@ -37,7 +37,7 @@ const PROJECTS: Project[] = [
     description: {
       details: 'An awesome website showcasing GSAP animations and smooth scrolling effects.',
       images: ['/images/Spylt.png', '/images/Spylt1.png', '/images/Spylt2.png', '/images/Spylt3.png'],
-      stack: ['React', 'GSAP', 'Tailwind CSS', 'Framer Motion']
+      stack: ['React', 'GSAP', 'Tailwind CSS']
     }
   },
   {
@@ -69,7 +69,7 @@ const PROJECTS: Project[] = [
     description: {
       details: 'A modern React website with a focus on clean design and performance.',
       images: ['/images/Codeflow.png', '/images/Codeflow1.png',],
-      stack: ['React', 'Tailwind CSS', 'Framer Motion']
+      stack: ['React', 'Tailwind CSS']
     }
   },
   {
@@ -115,9 +115,9 @@ const PROJECTS: Project[] = [
     color2: '#c1c1c1',
     stats: { build: '1 WK', stack: 'NEXT.JS', responsive: '100%', status: 'LIVE', live: true },
     description: {
-      details: 'A personal portfolio website built with Next.js to showcase creative work.',
+      details: 'A personal portfolio website built with Next.js to showcase creative work. Leterally me when I am not coding',
       images: ['/images/Portfolio.png'],
-      stack: ['Next.js', 'Tailwind CSS', 'Framer Motion']
+      stack: ['Next.js', 'Tailwind CSS',]
     }
   },
   {
@@ -131,7 +131,7 @@ const PROJECTS: Project[] = [
     color2: '#bf76ea',
     stats: { build: '1 WK', stack: 'PHP', responsive: '100%', status: 'LIVE', live: true },
     description: {
-      details: 'Asides from my skills in frontend development, I recently dived into PHP, bilding this fullstack project. EduCore is a modern, multi-tenant school management platform built to simplify and digitize the administrative, academic, and financial operations of secondary schools. Designed with Nigerian secondary education workflows in mind, EduCore brings together everything a school needs to run efficiently — from student registration and fee tracking to result management and parent communication — all within a single, beautifully organized system.  A demo account has been added. Sign up using-- email: johndoe@gmail.com, password: admin123',
+      details: 'Asides from my skills in frontend development, I recently dived into PHP, bilding this fullstack project. EduCore is a modern, multi-tenant school management platform built to simplify and digitize the administrative, academic, and financial operations of secondary schools. Designed with Nigerian secondary education workflows in mind, EduCore brings together everything a school needs to run efficiently — from student registration and fee tracking to result management and parent communication — all within a single, beautifully organized system.  A demo account has been added for testing. Sign up using-- email: johndoe@gmail.com, password: admin123',
       images: ['/images/Educore.png', '/images/Educore1.png', '/images/Educore2.png', '/images/Educore3.png',],
       stack: ['PHP', 'MySQL', 'Tailwind']
     }
