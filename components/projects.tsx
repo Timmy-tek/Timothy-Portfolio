@@ -99,7 +99,8 @@ const PROJECTS: Project[] = [
     color2: '#d1e2ff',
     stats: { build: '1 WK', stack: 'JS, APIs', responsive: '100%', status: 'WIP', live: true },
     description: {
-      details: 'A landing page for a financial application focusing on user flow and conversions.',
+      details: 'PayFlow is a cross-platform personal finance app that lets users track income and expenses, set category-based monthly budgets, visualize spending through interactive analytics, and receive smart predictive alerts before they overspend. It supports multi-account tracking, savings goals, shared household budgets, recurring transactions, and bank sync via Plaid and Mono — built offline-first for reliable performance regardless of connectivity.\n' +
+          'The proposed stack uses React Native (Expo) for mobile, Next.js 15 for web, and a Hono.js + PostgreSQL + Supabase backend, all living in a Turborepo monorepo. The project includes a fully designed REST API with over 60 documented endpoints covering everything from authentication and transactions to analytics, exports, and real-time notifications.',
       images: ['/images/Payflow.png'],
       stack: ['JavaScript', 'APIs', 'CSS']
     }
