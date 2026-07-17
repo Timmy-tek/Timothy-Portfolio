@@ -11,16 +11,17 @@ type Project = {
   category: Category
   img: string
   link: string
+  color: string
   stats: { build: string; stack: string; responsive: string; status: string; live: boolean }
 }
 
 const PROJECTS: Project[] = [
-  { id: 'PROJECT_ALPHA', name: '🥛SPYLT', category: 'WEBSITE', img: '/images/Spylt.png', link:'https://spylt-awesome-gsap-website.vercel.app', stats: { build: '2 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_BETA', name: '🍸MOJITO', category: 'WEBSITE', img: '/images/Mojito.png', link: 'https://mojito-cocktails-gsap-two.vercel.app', stats: { build: '1 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'BETA', live: true } },
-  { id: 'PROJECT_GAMMA', name: '🔵CODEFLOW', category: 'WEBSITE', img: '/images/Codeflow.png', link: 'https://codeflow-react-website.vercel.app', stats: { build: '1 WK', stack: 'REACT.JS, TAILWIND', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_DELTA', name: '🎬CINEMAX', category: 'WEB APP', img: '/images/Cinemax.png', link: 'https://cinemax-indol.vercel.app', stats: { build: '1 DY', stack: 'JS, APIs', responsive: '100%', status: 'LIVE', live: true } },
-  { id: 'PROJECT_EPSILON', name: '🪙PAYFLOW', category: 'WEBSITE', img: '/images/Payflow.png', link: 'https://it-liveptals.github.io/Payflow-Landing-Page/', stats: { build: '1 WK', stack: 'JS, APIs', responsive: '100%', status: 'WIP', live: true } },
-  { id: 'PROJECT_ZETA', name: '🧑🏻‍💻G PORTFOLIO', category: 'WEBSITE', img: '/images/Portfolio.png', link: 'https://vercel.com/timothy007/portfolio-website', stats: { build: '1 WK', stack: 'NEXT.JS', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_ALPHA', name: '🥛SPYLT', category: 'WEBSITE', img: '/images/Spylt.png', link:'https://spylt-awesome-gsap-website.vercel.app', color: '#523122', stats: { build: '2 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_BETA', name: '🍸MOJITO', category: 'WEBSITE', img: '/images/Mojito.png', link: 'https://mojito-cocktails-gsap-two.vercel.app', color: '#2D4628', stats: { build: '1 WK', stack: 'REACT.JS, GSAP', responsive: '100%', status: 'BETA', live: true } },
+  { id: 'PROJECT_GAMMA', name: '🔵CODEFLOW', category: 'WEBSITE', img: '/images/Codeflow.png', link: 'https://codeflow-react-website.vercel.app', color: '#445FD9', stats: { build: '1 WK', stack: 'REACT.JS, TAILWIND', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_DELTA', name: '🎬CINEMAX', category: 'WEBSITE', img: '/images/Cinemax.png', link: 'https://cinemax-indol.vercel.app', color: '#E8A045', stats: { build: '1 DY', stack: 'JS, APIs', responsive: '100%', status: 'LIVE', live: true } },
+  { id: 'PROJECT_EPSILON', name: '🪙PAYFLOW', category: 'WEBSITE', img: '/images/Payflow.png', link: 'https://it-liveptals.github.io/Payflow-Landing-Page/', color: '#0B57D0', stats: { build: '1 WK', stack: 'JS, APIs', responsive: '100%', status: 'WIP', live: true } },
+  { id: 'PROJECT_ZETA', name: '🧑🏻‍💻G PORTFOLIO', category: 'WEBSITE', img: '/images/Portfolio.png', link: 'https://portfolio-website-theta-tawny-84.vercel.app/', color: '#0A0A0A', stats: { build: '1 WK', stack: 'NEXT.JS', responsive: '100%', status: 'LIVE', live: true } },
   // { id: 'PROJECT_ETA', name: 'GRID.CO', category: 'WEB APP', img: '/images/proj-landing.png', stats: { build: '4 WK', stack: 'REACT', responsive: '100%', status: 'LIVE', live: true } },
   // { id: 'PROJECT_THETA', name: 'VAULT', category: 'FULLSTACK', img: '/images/proj-fullstack.png', stats: { build: '5 MO', stack: 'NEXT.JS', responsive: '100%', status: 'WIP', live: false } },
 ]
@@ -123,7 +124,8 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       {/* footer link */}
       <a
         href={project.link} target="_blank"
-        className="flex items-center justify-between border-t border-ink px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink"
+        style={{ '--hover-color': project.color } as React.CSSProperties}
+        className={`flex items-center justify-between border-t border-ink px-3 py-3 font-mono text-[0.65rem] uppercase tracking-[0.2em] text-ink group-hover:bg-amber-300`}
       >
         View Project
         <span className="text-red transition-transform duration-200 group-hover:translate-x-1">→</span>
